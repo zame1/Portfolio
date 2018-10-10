@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+
+   @media only screen and (min-width: 992px) {
+	/****Ipad Landscape 1024 Container 970 ****/
+	.projects-wrapper{
+		padding-top:7%;
+	}
+	.proj-info-wrapper{
+		margin: 0 2em 5em 0;
+	}
+	
+}	
+   
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/****Ipad Portrait 768 Container 750 ****/
+	h1.title{
+		font-size:3em;
+	}
+	.skills-icon i {
+		font-size:3em;
+	}
+	.proj-info-wrapper{
+		margin: 0 2em 0 0;
+	}
+	.project-discription{
+		padding:1em 0 1.5em 0;
+	}
+	.project-discription p{
+		font-size:0.9em;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	/****Mobile Landscape 480 Container 100% ****/
+	.hero-section{
+		background-image: none;
+		background-color: #ecf0f1;
+	}
+	h1.title{
+		font-size:3em;
+	}
+	.skills-container{
+		flex-wrap:wrap;
+	}
+	.skills-title{
+		width:100%;
+	}
+	.skills-title h1{
+		padding-top: 0.5em;
+	}
+	.skills-icon-wrapper{
+		display:block;
+		text-align: center;
+		font-size:2em;
+	}
+	.skills-icon-wrapper i{
+		padding-top:0.25em;
+	}
+	.skills-container{
+		height:100%;
+		padding-bottom: 50px;
+	}
+	.skills-icon i {
+		font-size: 2em;
+	}
+	.project-pic img{
+		width: 300px;
+	}
+	.projects-wrapper{
+		display: inline-flex;
+		flex-direction: column;
+		min-height:100%;
+
+	}
+	.proj-info-wrapper{
+		margin: 0 3em 0em 3em;
+	}
+	.project-num{
+		padding:0.25;
+		font-size:2em;
+	}
+	.project-name{
+		font-size:1.5em;
+	}
+	.project-discription{
+		padding:1em 0 1em 0;
+	}
+	.project-discription p{
+		font-size:0.75em;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	/****Mobile Portrait 320 ****/
+	.inner-hero{
+		top:25%;
+		left:25%;
+	}
+	h1.title{
+		font-size:2em;
+	}
+	.skills-container{
+		height:90%;
+	}
+	.skills-icon i {
+		font-size: 2em;
+	}
+	.project-container{
+		height: auto;
+	}
+	.project-pic img{
+		width: 300px;
+		padding-top: 2em;
+	}
+	.projects-wrapper{
+		display: inline-flex;
+		flex-direction: column;
+		height:100%;
+		padding-bottom:2.5em;
+
+	}
+	.proj-info-wrapper{
+		margin: 0 3em 0em 3em;
+		/* padding-bottom: 10em; */
+	}
+	.project-discription p{
+		font-size:0.75em;
+	}
+	.contact-icons{
+		left:45%;
+	}
+
+}
